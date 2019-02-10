@@ -1,0 +1,178 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>To Do</title>
+
+    <!--  Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <!--My Stylesheet-->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+
+</head>
+
+<body id="dash-body">
+    <header class="showcase">
+
+            <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg sticky-top ml-5 mr-5 myNav ">
+
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/img/default-avatar_sm.svg" class="avatar" alt="">
+                    <span class="user-name">Suyash Bajpai</span>
+                </a>
+
+                <button class="navbar-toggler myIcons" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup">
+                    <i class="fas fa-bars"></i>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item mr-4">
+                            <a class="nav-link ml-2" href="register.html">
+                                <i class="fas fa-cog fa-spin myIcons"></i> Account</a>
+                        </li>
+
+                        <li class="nav-item mr-3">
+                            <a class="nav-link ml-3" href="login.html">
+                                <i class="fas fa-sign-out-alt myIcons"></i> Log Out</a>
+                        </li>
+                    </ul>
+
+                </div>
+        </nav>
+
+        <div class="myDay">
+
+            <h2><span>To Day <p class="date">10 Feb, 2019</p></span></h2>
+
+
+        </div>
+    </header>
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-sm-0 col-md-3">
+                <img src="assets/img/side1.png" class="side-img2" alt="">
+            </div>
+
+            <div class="col-sm-12 col-md-6 myApp">
+                <div class="container align-center">
+
+                    <div class="row">
+                        <div class="col-xs-12 app-title">
+                            To Do
+                        </div>
+                    </div>
+
+                        <div class="row tasks">
+                              <div class="col-xs-2">
+                                <label class="status">
+                                <input type="checkbox" />
+                                <span></span>
+                                </label>
+                        </div>
+
+                        <div class="col-xs-10">
+                            <input class="task done" type="text"/>
+                        </div>
+                    </div>
+
+                    <div class="row tasks">
+                        <div class="col-xs-2">
+                            <label class="status">
+                                <input type="checkbox" />
+                                <span></span>
+                            </label>
+                        </div>
+
+                        <div class="col-xs-10">
+                            <input class="task done" type="text"/>
+                        </div>
+                    </div>
+
+                    <div class="row tasks">
+                        <div class="col-xs-2">
+                            <label class="status">
+                                <input type="checkbox" checked/>
+                                <span></span>
+                            </label>
+                        </div>
+
+                        <div class="col-xs-10">
+                            <input class="task done" type="text"/>
+                        </div>
+                    </div>
+
+                    <div class="row tasks">
+                        <div class="col-xs-2">
+                            <label class="status">
+                                <input type="checkbox" />
+                                <span></span>
+                            </label>
+                        </div>
+
+                        <div class="col-xs-10">
+                            <input class="task done" type="text"/>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+
+            <div class="col-sm-0 col-md-3">
+                <img src="assets/img/side2.png" class="side-img3" alt="">
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="page-footer font-small fixed-bottom text-center bg2-light">
+
+        <!-- Copyright -->
+        <div class="footer-copyright py-3 footer-text bg1-light">
+            <div class="blue-btn add-btn show">
+                <i class="fas fa-plus-circle"></i>
+                Add a To Do
+            </div>
+
+            <div class="to-do-text hide">
+                <form method="post">
+                    <input type="text">
+                    <button type="submit" class="form-btn to-do-submit"></button>
+                </form>
+            </div>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+
+    <!-- My Scripts-->
+    <script src="assets/js/script.js"></script>
+
+    <!-- Scripts-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>
